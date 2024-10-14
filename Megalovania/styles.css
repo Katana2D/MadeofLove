@@ -1,0 +1,92 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+    background-image: url('img/capa.gif');
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#score {
+    color: white;
+}
+
+#gameCanvas {
+    border: 2px solid #fff;
+}
+
+.menu-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.menu-box {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    width: 600px;
+    /* Definindo uma largura fixa */
+    height: 400px;
+    /* Definindo uma altura fixa */
+    text-align: center;
+    box-shadow: 0px 0px 10px 2px rgb(255, 255, 255);
+    /* Adiciona um leve brilho ao redor */
+}
+
+.menu-box a.btn {
+    background-color: white;
+    /* Cor de fundo padrão do botão */
+    color: black;
+    /* Cor do texto do botão */
+    width: 100%;
+    /* Largura do botão para ocupar 100% do espaço disponível */
+    padding: 10px;
+    /* Diminui o padding para reduzir a altura do botão */
+    font-size: 1.2rem;
+    /* Diminui o tamanho da fonte */
+    border: none;
+    /* Remove a borda padrão */
+    transition: background-color 0.3s;
+    /* Transição suave para a cor de fundo */
+}
+
+.menu-box a.btn:hover {
+    background-color: yellow;
+    /* Cor de fundo ao passar o mouse */
+}
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #222;
+    color: white;
+}
+
+.scoreboard {
+    text-align: center;
+}
+
+.score-card {
+    background: rgba(255, 255, 255, 0.2);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: yellow;
+}

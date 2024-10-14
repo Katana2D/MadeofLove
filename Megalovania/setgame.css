@@ -1,0 +1,78 @@
+.castle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('img/castle.gif');
+    background-size: 100%;
+}
+
+.mansion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('img/mansion.gif');
+    background-size: 100%;
+}
+
+.snowvillage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('img/snowvillage.gif');
+    background-size: 100%;
+}
+
+.spiderdance {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('img/spiderdance.gif');
+    background-size: 100%;
+}
+
+.insanemode {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('img/insanemode.gif');
+    background-size: 100%;
+}
+
+#score {
+    color: white;
+}
+
+#castleCanvas {
+    border: 2px solid #fff;
+}
+
+#mansionCanvas {
+    border: 2px solid #fff;
+}
+
+#snowvillageCanvas {
+    border: 2px solid #fff;
+}
+
+#spiderdanceCanvas {
+    border: 2px solid #fff;
+}
+
+#insanemodeCanvas {
+    border: 2px solid #fff;
+}
